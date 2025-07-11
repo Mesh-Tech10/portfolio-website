@@ -665,11 +665,11 @@ const Portfolio = () => {
               Completed hands-on internship experience applying technical skills in real-world scenarios.
             </p>
           </div>     
-                
+
           <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem' }}>
             {/* First Internship */}
             <div style={{ 
-              backgroundColor: 'white', 
+              backgroundColor: '#f7fafc', 
               padding: '2.5rem', 
               borderRadius: '12px', 
               boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
@@ -726,7 +726,7 @@ const Portfolio = () => {
 
             {/* Second Internship */}
             <div style={{ 
-              backgroundColor: 'white', 
+              backgroundColor: '#f7fafc', 
               padding: '2.5rem', 
               borderRadius: '12px', 
               boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
@@ -786,7 +786,7 @@ const Portfolio = () => {
       </section>       
 
       {/* New Skills Section */}
-      <section id="skills" style={{ padding: '6rem 2rem', backgroundColor: 'white' }}>
+      <section id="skills" style={{ padding: '6rem 2rem', backgroundColor: '#f7fafc' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
             <h2 style={{ 
@@ -955,7 +955,7 @@ const Portfolio = () => {
                <div 
                  key={index}
                  style={{
-                   backgroundColor: 'white',
+                   backgroundColor: '#f7fafc',
                    border: '1px solid #e2e8f0',
                    borderRadius: '12px',
                     padding: '2rem',
