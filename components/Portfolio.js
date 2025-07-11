@@ -192,7 +192,7 @@ const Portfolio = () => {
             </div>
           </div>
           
-          {/* Right Content - Profile Image Placeholder */}
+          {/* Right Content */}
           <div style={{ 
             display: 'flex', 
             justifyContent: 'center',
@@ -235,7 +235,7 @@ const Portfolio = () => {
               maxWidth: '600px',
               margin: '0 auto'
             }}>
-              Passionate technologist with expertise in AI/ML and quality assurance
+              Passionate technologist with knowledge in AI/ML and quality assurance
             </p>
           </div>
           
@@ -255,17 +255,17 @@ const Portfolio = () => {
                 lineHeight: '1.8',
                 color: '#4a5568'
               }}>
-                With over 5 years of experience in AI/ML and quality assurance, I have helped companies 
-                build reliable, intelligent systems that solve real-world problems.
-              </p>
+                I hold a Master's degree in Computer Science and have built a diverse professional background across technical support, customer service, and software projects. 
+                My experience includes working as a Technical Services Representative, where I provided hands-on IT support and troubleshooting, and completing certifications in cloud, cybersecurity, and data analytics. 
+               </p>
               <p style={{ 
                 fontSize: '1.1rem', 
                 marginBottom: '2rem', 
                 lineHeight: '1.8',
                 color: '#4a5568'
               }}>
-                My expertise spans machine learning model development, automated testing frameworks, 
-                and data-driven solutions that make a real impact.
+                I have also worked on academic and personal tech projects involving machine learning, testing, and web development. Currently, 
+                I am focused fully into the IT field—particularly cybersecurity and cloud—while actively pursuing industry certifications and building practical skills through projects and continuous learning.
               </p>
             </div>
             
@@ -283,7 +283,7 @@ const Portfolio = () => {
                   color: '#667eea', 
                   marginBottom: '0.5rem' 
                 }}>
-                  50+
+                  5+
                 </div>
                 <div style={{ fontWeight: '600', color: '#4a5568' }}>Projects Completed</div>
               </div>
@@ -355,13 +355,13 @@ const Portfolio = () => {
                     color: '#667eea',
                     marginBottom: '1rem'
                   }}>
-                    Stanford University
+                    Laurentian University, Greater Sudbury
                   </p>
                   <p style={{ 
                     color: '#4a5568', 
                     fontSize: '0.95rem'
                   }}>
-                    Stanford, CA
+                    Ontario, CA
                   </p>
                 </div>
                 <span style={{ 
@@ -372,7 +372,7 @@ const Portfolio = () => {
                   fontSize: '0.8rem', 
                   fontWeight: '600'
                 }}>
-                  2018 - 2020
+                  2019 - 2022
                 </span>
               </div>
               <ul style={{ 
@@ -382,9 +382,9 @@ const Portfolio = () => {
                 margin: 0
               }}>
                 <li>Specialized in Artificial Intelligence and Machine Learning</li>
-                <li>Coursework: Advanced Machine Learning, Deep Learning, Natural Language Processing, Computer Vision</li>
-                <li>GPA: 3.8/4.0</li>
-                <li>Teaching Assistant for Machine Learning course with 200+ students</li>
+                <li>Coursework: Advanced Machine Learning, Deep Learning, Natural Language Processing, Data Mining</li>
+                <li></li>
+                <li></li>
               </ul>
             </div>
 
@@ -404,7 +404,7 @@ const Portfolio = () => {
                     marginBottom: '0.5rem',
                     color: '#2d3748'
                   }}>
-                    Bachelor of Engineering in Software Engineering
+                    Bachelor of Engineering in Information and Technology Engineering
                   </h3>
                   <p style={{ 
                     fontSize: '1.2rem', 
@@ -418,7 +418,7 @@ const Portfolio = () => {
                     color: '#4a5568', 
                     fontSize: '0.95rem'
                   }}>
-                    Ahmedabad, Gujarat, India
+                    Gujarat, India
                   </p>
                 </div>
                 <span style={{ 
@@ -448,7 +448,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Experience Section - Added one more position */}
+      {/* Experience Section */}
       <section id="experience" style={{ padding: '6rem 2rem', backgroundColor: '#f7fafc' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
@@ -487,7 +487,7 @@ const Portfolio = () => {
                     marginBottom: '0.5rem',
                     color: '#2d3748'
                   }}>
-                    Senior AI/ML Engineer
+                    Technical service representative
                   </h3>
                   <p style={{ 
                     fontSize: '1.2rem', 
@@ -495,13 +495,13 @@ const Portfolio = () => {
                     color: '#667eea',
                     marginBottom: '0.5rem'
                   }}>
-                    TechCorp Solutions
+                    D.E.Systems
                   </p>
                   <p style={{ 
                     color: '#4a5568', 
                     fontSize: '0.95rem'
                   }}>
-                    San Francisco, CA
+                    Mississauga, ON, CA
                   </p>
                 </div>
                 <span style={{ 
@@ -512,7 +512,7 @@ const Portfolio = () => {
                   fontSize: '0.9rem', 
                   fontWeight: '600'
                 }}>
-                  2022 - Present
+                  2024 - Present
                 </span>
               </div>
               <ul style={{ 
@@ -521,14 +521,14 @@ const Portfolio = () => {
                 paddingLeft: '1.5rem',
                 margin: 0
               }}>
-                <li>Led development of machine learning models that improved customer retention by 35%</li>
-                <li>Architected and implemented scalable ML pipelines processing 10M+ data points daily</li>
-                <li>Mentored team of 5 junior engineers and established ML best practices</li>
-                <li>Collaborated with product teams to integrate AI features into core platform</li>
+                <li>Diagnosed and resolved software, hardware, and networking issues within an average of 15–30 minutes per case.</li>
+                <li>Automated repetitive support tasks with Python scripting, PowerShell, and Bash, reducing ticket resolution time by 30%.</li>
+                <li>Delivered training sessions, improving user proficiency and reducing repeat support requests by 30%.</li>
+                <li>Provided Tier-1 & Tier-2 technical support to 100+ clients, resolving 90% of issues on the first attempt.</li>
               </ul>
             </div>
 
-            {/* Second Position */}
+             {/* Second Position */}
             <div style={{ 
               backgroundColor: 'white', 
               padding: '2.5rem', 
@@ -544,7 +544,7 @@ const Portfolio = () => {
                     marginBottom: '0.5rem',
                     color: '#2d3748'
                   }}>
-                    QA Automation Engineer
+                    Instructional Support Assistant 
                   </h3>
                   <p style={{ 
                     fontSize: '1.2rem', 
@@ -552,13 +552,13 @@ const Portfolio = () => {
                     color: '#10b981',
                     marginBottom: '0.5rem'
                   }}>
-                    DataFlow Analytics
+                    Laurentian University
                   </p>
                   <p style={{ 
                     color: '#4a5568', 
                     fontSize: '0.95rem'
                   }}>
-                    Austin, TX
+                    Greater Sudbury, ON, Canada
                   </p>
                 </div>
                 <span style={{ 
@@ -569,7 +569,7 @@ const Portfolio = () => {
                   fontSize: '0.9rem', 
                   fontWeight: '600'
                 }}>
-                  2020 - 2022
+                  2019 - 2021
                 </span>
               </div>
               <ul style={{ 
@@ -578,14 +578,15 @@ const Portfolio = () => {
                 paddingLeft: '1.5rem',
                 margin: 0
               }}>
-                <li>Designed and implemented comprehensive test automation framework using Selenium and Python</li>
-                <li>Reduced manual testing time by 80% through automated test suite development</li>
-                <li>Established CI/CD pipelines that improved deployment reliability by 90%</li>
-                <li>Collaborated with development teams to integrate quality gates into the software delivery process</li>
-              </ul>
+                <li>Maintained class and student records by documenting attendance and completing assignments for over 200 students.</li>
+                <li>Evaluated and graded over 100 assignments and exams in adherence to university standards.</li>
+                <li>Proctored over 10 examinations, ensuring academic integrity and preventing student cheating.</li>
+                <li>Conducted collaborative research in computer science with a team of 3 graduates and faculty members, resulting in 2 published papers.</li>
+                <li>Taught mathematics and college-level mathematics courses to more than 50 students, enhancing their academic performance and understanding of the subject.</li>
+                </ul>
             </div>
 
-            {/* Third Position */}
+            {/* third Position */}
             <div style={{ 
               backgroundColor: 'white', 
               padding: '2.5rem', 
@@ -601,7 +602,89 @@ const Portfolio = () => {
                     marginBottom: '0.5rem',
                     color: '#2d3748'
                   }}>
-                    Data Scientist
+                    Customer Service & Support Roles
+                  </h3>
+                  {/*<p style={{ 
+                    fontSize: '1.2rem', 
+                    fontWeight: '600', 
+                    color: '#10b981',
+                    marginBottom: '0.5rem'
+                  }}>
+                    Companies
+                  </p>*/}
+                  <p style={{ 
+                    color: '#4a5568', 
+                    fontSize: '0.95rem'
+                  }}>
+                    Ontario, Canada
+                  </p>
+                </div>
+                <span style={{ 
+                  backgroundColor: '#10b981', 
+                  color: 'white', 
+                  padding: '0.5rem 1rem', 
+                  borderRadius: '20px', 
+                  fontSize: '0.9rem', 
+                  fontWeight: '600'
+                }}>
+                  2019 - 2024
+                </span>
+              </div>
+              <ul style={{ 
+                color: '#4a5568', 
+                lineHeight: '1.7',
+                paddingLeft: '1.5rem',
+                margin: 0
+              }}>
+                <li>Roles included Store Assistant, Collection Agent, and Customer Service Specialist at BGO, Tim Hortons, Real Canadian Superstore, and Subway.</li>
+                <li>Built strong communication, conflict resolution, and customer management skills in fast-paced environments.</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Internship Section */}
+      <section id="experience" style={{ padding: '6rem 2rem', backgroundColor: '#f7fafc' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <h2 style={{ 
+              fontSize: '3rem', 
+              fontWeight: '800', 
+              margin: '0 0 1rem 0',
+              color: '#2d3748'
+            }}>
+              Internship
+            </h2>
+            <p style={{ 
+              fontSize: '1.2rem', 
+              color: '#4a5568',
+              maxWidth: '600px',
+              margin: '0 auto'
+            }}>
+              Completed hands-on internship experience applying technical skills in real-world scenarios, 
+              contributing to project development and IT support while learning from industry professionals.
+            </p>
+          </div>
+          
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem' }}>
+            {/* First Internship */}
+            <div style={{ 
+              backgroundColor: 'white', 
+              padding: '2.5rem', 
+              borderRadius: '12px', 
+              boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
+              border: '1px solid #e2e8f0'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1.5rem' }}>
+                <div>
+                  <h3 style={{ 
+                    fontSize: '1.8rem', 
+                    fontWeight: '700', 
+                    marginBottom: '0.5rem',
+                    color: '#2d3748'
+                  }}>
+                    Web Developer Intern
                   </h3>
                   <p style={{ 
                     fontSize: '1.2rem', 
@@ -609,74 +692,17 @@ const Portfolio = () => {
                     color: '#8b5cf6',
                     marginBottom: '0.5rem'
                   }}>
-                    Analytics Pro Inc.
+                    Web Developer Intern
                   </p>
                   <p style={{ 
                     color: '#4a5568', 
                     fontSize: '0.95rem'
                   }}>
-                    Denver, CO
+                    Anand, Gujarat, India
                   </p>
                 </div>
                 <span style={{ 
                   backgroundColor: '#8b5cf6', 
-                  color: 'white', 
-                  padding: '0.5rem 1rem', 
-                  borderRadius: '20px', 
-                  fontSize: '0.9rem', 
-                  fontWeight: '600'
-                }}>
-                  2019 - 2020
-                </span>
-              </div>
-              <ul style={{ 
-                color: '#4a5568', 
-                lineHeight: '1.7',
-                paddingLeft: '1.5rem',
-                margin: 0
-              }}>
-                <li>Developed predictive analytics models for customer behavior analysis</li>
-                <li>Built data visualization dashboards using Python, R, and Tableau</li>
-                <li>Performed statistical analysis on large datasets to identify business insights</li>
-                <li>Presented findings to C-level executives and drove strategic decision making</li>
-              </ul>
-            </div>
-
-            {/* Fourth Position */}
-            <div style={{ 
-              backgroundColor: 'white', 
-              padding: '2.5rem', 
-              borderRadius: '12px', 
-              boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
-              border: '1px solid #e2e8f0'
-            }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1.5rem' }}>
-                <div>
-                  <h3 style={{ 
-                    fontSize: '1.8rem', 
-                    fontWeight: '700', 
-                    marginBottom: '0.5rem',
-                    color: '#2d3748'
-                  }}>
-                    Junior Software Developer
-                  </h3>
-                  <p style={{ 
-                    fontSize: '1.2rem', 
-                    fontWeight: '600', 
-                    color: '#f59e0b',
-                    marginBottom: '0.5rem'
-                  }}>
-                    StartupXYZ
-                  </p>
-                  <p style={{ 
-                    color: '#4a5568', 
-                    fontSize: '0.95rem'
-                  }}>
-                    Remote
-                  </p>
-                </div>
-                <span style={{ 
-                  backgroundColor: '#f59e0b', 
                   color: 'white', 
                   padding: '0.5rem 1rem', 
                   borderRadius: '20px', 
@@ -692,17 +718,75 @@ const Portfolio = () => {
                 paddingLeft: '1.5rem',
                 margin: 0
               }}>
-                <li>Developed and maintained web applications using React, Node.js, and MongoDB</li>
-                <li>Implemented responsive UI components improving user experience across devices</li>
-                <li>Participated in agile development process and code review sessions</li>
-                <li>Contributed to open-source projects and technical documentation</li>
+                <li>Developed and optimized full-stack web applications using HTML, PHP, JavaScript, CSS, and jQuery.</li>
+                <li>Integrated RESTful APIs with backend services using Postman and PHP.</li>
+                <li>Managed and optimized MySQL databases for high-performance queries.</li>
+                <li>Utilized Git and Jenkins for version control and basic CI/CD pipeline automation.</li>
+              </ul>
+            </div>
+
+            {/* Second Internship */}
+            <div style={{ 
+              backgroundColor: 'white', 
+              padding: '2.5rem', 
+              borderRadius: '12px', 
+              boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
+              border: '1px solid #e2e8f0'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1.5rem' }}>
+                <div>
+                  <h3 style={{ 
+                    fontSize: '1.8rem', 
+                    fontWeight: '700', 
+                    marginBottom: '0.5rem',
+                    color: '#2d3748'
+                  }}>
+                    Junior Software Developer Intern
+                  </h3>
+                  <p style={{ 
+                    fontSize: '1.2rem', 
+                    fontWeight: '600', 
+                    color: '#f59e0b',
+                    marginBottom: '0.5rem'
+                  }}>
+                   Tech Elecon, Technological Simplified
+                  </p>
+                  <p style={{ 
+                    color: '#4a5568', 
+                    fontSize: '0.95rem'
+                  }}>
+                    Anand, Gujarat, India
+                  </p>
+                </div>
+                <span style={{ 
+                  backgroundColor: '#f59e0b', 
+                  color: 'white', 
+                  padding: '0.5rem 1rem', 
+                  borderRadius: '20px', 
+                  fontSize: '0.9rem', 
+                  fontWeight: '600'
+                }}>
+                  2017 - 2018
+                </span>
+              </div>
+              <ul style={{ 
+                color: '#4a5568', 
+                lineHeight: '1.7',
+                paddingLeft: '1.5rem',
+                margin: 0
+              }}>
+                <li>Developed multi-platform applications using Java, Python, and C++, ensuring modular and reusable code.</li>
+                <li>Built and deployed RESTful APIs using Flask and PHP, integrating backend services efficiently.</li>
+                <li>Conducted unit testing and API testing with JUnit and Selenium to ensure application stability.</li>
+                <li>Optimized application performance and security using SQL database indexing, caching, and role-based authentication.</li>
+                <li>Utilized Git and SVN for version control, collaborating on team-based software projects.</li>
               </ul>
             </div>
           </div>
         </div>
-      </section>
+      </section>       
 
-      {/* New Skills Section - Unique Design */}
+      {/* New Skills Section */}
       <section id="skills" style={{ padding: '6rem 2rem', backgroundColor: 'white' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
@@ -813,46 +897,60 @@ const Portfolio = () => {
            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '2rem' }}>
              {[
                {
-                 name: 'AWS Certified Machine Learning - Specialty',
+                 name: 'AWS Cloud Practitioner Essentials - AWS',
                  issuer: 'Amazon Web Services',
-                 date: '2023',
+                 date: '2024',
                  color: '#ff9900',
-                 description: 'Validates expertise in building, training, and deploying ML models on AWS'
+                 description: 'AWS cloud infrastructure, services, billing, and security, helping me understand how cloud solutions are built and managed.'
                },
                {
-                 name: 'Google Professional Machine Learning Engineer',
-                 issuer: 'Google Cloud',
-                 date: '2023',
+                 name: 'AWS Essential Training for Developers',
+                 issuer: 'LinkedIn',
+                 date: '2024',
                  color: '#4285f4',
-                 description: 'Demonstrates proficiency in designing and implementing ML solutions'
+                 description: 'Focused and training on hands-on tools like EC2, S3, and Lambda, and how developers can use AWS to build and deploy applications effectively.'
                },
                {
-                 name: 'Certified Kubernetes Application Developer',
-                 issuer: 'Cloud Native Computing Foundation',
-                 date: '2022',
+                 name: 'Career Essentials in Generative AI',
+                 issuer: 'Microsoft & LinkedIn',
+                 date: '2024',
                  color: '#326ce5',
-                 description: 'Validates skills in designing and deploying applications on Kubernetes'
+                 description: 'Covered the fundamentals of AI and generative AI, including ethical use, tools like Microsoft Copilot, and trained how to apply AI in real-world tasks.'
                },
                {
-                 name: 'TensorFlow Developer Certificate',
-                 issuer: 'TensorFlow',
-                 date: '2022',
+                 name: 'Google Data Analytics Professional Certificate',
+                 issuer: 'Coursera',
+                 date: '2023',
                  color: '#ff6f00',
-                 description: 'Demonstrates proficiency in using TensorFlow for machine learning'
+                 description: 'Gained practical experience with data analysis tools like SQL, Excel, and Tableau while learning how to clean, organize, and present data-driven insights.'
                },
                {
-                 name: 'Microsoft Azure AI Engineer Associate',
-                 issuer: 'Microsoft',
+                 name: 'Software Testing and Automation, University of Minnesota ',
+                 issuer: 'Coursera)',
                  date: '2023',
                  color: '#0078d4',
-                 description: 'Validates skills in designing and implementing AI solutions on Azure platform'
+                 description: 'Learned manual and automated testing strategies, including test planning, debugging, and using tools like Selenium to improve software quality.'
                },
                {
-                 name: 'Certified Ethical Hacker (CEH)',
-                 issuer: 'EC-Council',
-                 date: '2022',
+                 name: 'Networking Fundamentals',
+                 issuer: 'LinkedIn',
+                 date: '2025',
                  color: '#dc3545',
-                 description: 'Demonstrates knowledge of information system security and ethical hacking methodologies'
+                 description: 'Demonstrates core networking concepts like IP addressing, DNS, firewalls, and protocols, helping me build a strong foundation in IT networking.'
+               },
+               {
+                 name: 'Excel and ChatGPT: Data Analysis Power Tip',
+                 issuer: 'LinkedIn',
+                 date: '2025',
+                 color: '#dc3545',
+                 description: 'Learned how to pair Excel functions with ChatGPT to simplify data analysis, automation, and reporting tasks efficiently.'
+               },
+               {
+                 name: 'Ongoing - Certified Cybersecurity By ISC2',
+                 issuer: 'ISC2 organization',
+                 date: '2025',
+                 color: '#dc3545',
+                 description: 'Currently building a strong foundation in cybersecurity concepts including risk management, network security, incident response, and access control, as part of ISC2’s entry-level certification program.'
                }
              ].map((cert, index) => (
                <div 
@@ -911,7 +1009,7 @@ const Portfolio = () => {
        </div>
      </section>
 
-     {/* Projects Section - With project photos */}
+     {/* Projects Section */}
      <section id="projects" style={{ padding: '6rem 2rem', backgroundColor: '#f7fafc' }}>
        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
@@ -957,8 +1055,8 @@ const Portfolio = () => {
                image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
              },
              {
-               title: "E-commerce Testing Suite",
-               description: "Complete automated testing solution for online shopping platforms with performance monitoring and security testing.",
+               title: "Twitter sentiment analysis",
+               description: "Real-time sentiment analysis system that processes Twitter data to understand public opinion, brand perception, and social trends through advanced NLP and machine learning.",
                tech: ["JavaScript", "Cypress", "Jest", "Node.js"],
                category: "QA Testing",
                image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
@@ -1080,7 +1178,7 @@ const Portfolio = () => {
        </div>
      </section>
 
-     {/* Contact Section - Even spacing */}
+     {/* Contact Section */}
      <section id="contact" style={{ padding: '6rem 2rem', backgroundColor: '#f8fafc' }}>
        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
@@ -1103,7 +1201,7 @@ const Portfolio = () => {
          </div>
          
          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'stretch' }}>
-           {/* Contact Info - Even height */}
+           {/* Contact Info */}
            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
              <div>
                <h3 style={{ 
@@ -1125,7 +1223,7 @@ const Portfolio = () => {
                  Whether you have a question or just want to say hi, I will get back to you!
                </p>
                
-               {/* Contact Methods - Evenly distributed */}
+               {/* Contact Methods */}
                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginBottom: '0.5rem' }}>
                  {[
                    { label: 'Email', value: 'meshwapatel10@gmail.com' },
@@ -1160,7 +1258,7 @@ const Portfolio = () => {
                </div>
              </div>
 
-             {/* Social Links - Bottom aligned */}
+             {/* Social Links */}
              <div>
                <h4 style={{ 
                  fontSize: '1.2rem', 
@@ -1201,7 +1299,7 @@ const Portfolio = () => {
              </div>
            </div>
            
-           {/* Contact Form - Same height as left column */}
+           {/* Contact Form */}
            <div style={{ 
              backgroundColor: 'white', 
              padding: '3rem', 
