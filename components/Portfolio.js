@@ -383,10 +383,10 @@ const Portfolio = () => {
                 paddingLeft: '1.5rem',
                 margin: 0
               }}>
-                <li>Specialized in Artificial Intelligence and Machine Learning</li>
+               {/* <li>Specialized in Artificial Intelligence and Machine Learning</li>
                 <li>Coursework: Advanced Machine Learning, Deep Learning, Natural Language Processing, Data Mining</li>
                 <li></li>
-                <li></li>
+                <li></li>*/}
               </ul>
             </div>
 
@@ -440,10 +440,10 @@ const Portfolio = () => {
                 paddingLeft: '1.5rem',
                 margin: 0
               }}>
-                <li>Information and technology</li>
+              {/*  <li>Information and technology</li>
                 <li></li>
                 <li></li>
-                <li></li>
+                <li></li>*/}
               </ul>
             </div>
           </div>
