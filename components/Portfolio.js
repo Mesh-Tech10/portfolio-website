@@ -212,12 +212,7 @@ const Portfolio = () => {
               fontWeight: 'bold',
               boxShadow: '0 20px 60px rgba(102, 126, 234, 0.3)'
             }}>
-              {[
-                {
-                  image : "C:\Users\meshw\Desktop\My-Projects\portfolio-website\Meshwa_Patel_Photo.jpg"
-                }
-              ]}
-
+              MP
             </div>
           </div>
         </div>
@@ -241,7 +236,7 @@ const Portfolio = () => {
               maxWidth: '600px',
               margin: '0 auto'
             }}>
-              Passionate technologist with knowledge in AI/ML and quality assurance
+              Passionate technologist with knowledge in AI/ML, quality assurance, cloud engineering, cybersecurity and data analyst.
             </p>
           </div>
           
@@ -262,7 +257,8 @@ const Portfolio = () => {
                 color: '#4a5568'
               }}>
                 I hold a Master degree in Computer Science and have built a diverse professional background across technical support, customer service, and software projects. 
-                My experience includes working as a Technical Services Representative, where I provided hands-on IT support and troubleshooting, and completing certifications in cloud, cybersecurity, and data analytics. 
+                My Current experience includes hands-on IT support and troubleshooting, and
+                completing certifications in cloud, cybersecurity, and data analytics. 
                </p>
               <p style={{ 
                 fontSize: '1.1rem', 
@@ -270,8 +266,8 @@ const Portfolio = () => {
                 lineHeight: '1.8',
                 color: '#4a5568'
               }}>
-                I have also worked on academic and personal tech projects involving machine learning, testing, and web development. Currently, 
-                I am focused fully into the IT field—particularly cybersecurity and cloud—while actively pursuing industry certifications and building practical skills through projects and continuous learning.
+                I have also worked on academic and personal tech projects involving machine learning, testing, and web development. 
+                Currently, I am focused into the IT field—particularly cybersecurity and cloud—while actively pursuing industry certifications and building practical skills through projects and continuous learning.
               </p>
             </div>
             
