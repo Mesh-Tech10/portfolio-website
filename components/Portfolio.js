@@ -1090,7 +1090,7 @@ const Portfolio = () => {
              margin: '0 0 1rem 0',
              color: '#2d3748'
            }}>
-             Let&#39;s Work Together
+             Let&apos;s Work Together
            </h2>
            <p style={{ 
              fontSize: '1.2rem', 
@@ -1098,7 +1098,7 @@ const Portfolio = () => {
              maxWidth: '600px',
              margin: '0 auto'
            }}>
-             Have a project in mind? Let&#39;s discuss how we can bring your ideas to life.
+             Have a project in mind? Let&apos;s discuss how we can bring your ideas to life.
            </p>
          </div>
          
