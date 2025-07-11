@@ -395,10 +395,12 @@ const Portfolio = () => {
               backgroundColor: '#f8fafc', 
               padding: '2rem', 
               borderRadius: '12px', 
-              /*boxShadow: '0 4px 20px rgba(0,0,0,0.08)',*/
+              /*boxShadow: '0 4px 20px rgba(0,0,0,0.08)', */
               border: '1px solid #e2e8f0'
             }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
+              <div style={{ marginBottom: '1rem' 
+                /* display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start',*/
+              }}> 
                 <div>
                   <h3 style={{ 
                     fontSize: '1.5rem', 
@@ -426,9 +428,9 @@ const Portfolio = () => {
                 <span style={{ 
                   backgroundColor: '#10b981', 
                   color: 'white', 
-                  padding: '0.5rem 1rem', 
+                  padding: '0.3rem 0.8rem', 
                   borderRadius: '20px', 
-                  fontSize: '0.9rem', 
+                  fontSize: '0.8rem', 
                   fontWeight: '600'
                 }}>
                   2014 - 2018
