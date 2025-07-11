@@ -121,7 +121,7 @@ const Portfolio = () => {
               letterSpacing: '0.1em',
               textTransform: 'uppercase'
             }}>
-              Hello, I'm
+              Hello, I am
             </div>
             
             <h1 style={{ 
@@ -255,7 +255,7 @@ const Portfolio = () => {
                 lineHeight: '1.8',
                 color: '#4a5568'
               }}>
-                With over 5 years of experience in AI/ML and quality assurance, I've helped companies 
+                With over 5 years of experience in AI/ML and quality assurance, I have helped companies 
                 build reliable, intelligent systems that solve real-world problems.
               </p>
               <p style={{ 
@@ -412,13 +412,13 @@ const Portfolio = () => {
                     color: '#10b981',
                     marginBottom: '0.5rem'
                   }}>
-                    University of California, Berkeley
+                    Gujarat Technology University, Ahmedabad
                   </p>
                   <p style={{ 
                     color: '#4a5568', 
                     fontSize: '0.95rem'
                   }}>
-                    Berkeley, CA
+                    Ahmedabad, Gujarat, India
                   </p>
                 </div>
                 <span style={{ 
@@ -438,10 +438,10 @@ const Portfolio = () => {
                 paddingLeft: '1.5rem',
                 margin: 0
               }}>
-                <li>Foundation in software development principles and computer science fundamentals</li>
-                <li>Active member of the AI Research Club and competitive programming team</li>
-                <li>GPA: 3.6/4.0</li>
-                <li>President of AI Research Club, Dean's List for 6 semesters</li>
+                <li>Information and technology</li>
+                <li></li>
+                <li></li>
+                <li></li>
               </ul>
             </div>
           </div>
@@ -1090,7 +1090,7 @@ const Portfolio = () => {
              margin: '0 0 1rem 0',
              color: '#2d3748'
            }}>
-             Let's Work Together
+             Let&#39;s Work Together
            </h2>
            <p style={{ 
              fontSize: '1.2rem', 
@@ -1098,7 +1098,7 @@ const Portfolio = () => {
              maxWidth: '600px',
              margin: '0 auto'
            }}>
-             Have a project in mind? Let's discuss how we can bring your ideas to life.
+             Have a project in mind? Let&#39;s discuss how we can bring your ideas to life.
            </p>
          </div>
          
@@ -1121,8 +1121,8 @@ const Portfolio = () => {
                  lineHeight: '1.7',
                  marginBottom: '0.5rem'
                }}>
-                 I'm always interested in new opportunities and exciting projects. 
-                 Whether you have a question or just want to say hi, I'll get back to you!
+                 I am always interested in new opportunities and exciting projects. 
+                 Whether you have a question or just want to say hi, I will get back to you!
                </p>
                
                {/* Contact Methods - Evenly distributed */}
