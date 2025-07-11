@@ -255,7 +255,7 @@ const Portfolio = () => {
                 lineHeight: '1.8',
                 color: '#4a5568'
               }}>
-                I hold a Master's degree in Computer Science and have built a diverse professional background across technical support, customer service, and software projects. 
+                I hold a Master degree in Computer Science and have built a diverse professional background across technical support, customer service, and software projects. 
                 My experience includes working as a Technical Services Representative, where I provided hands-on IT support and troubleshooting, and completing certifications in cloud, cybersecurity, and data analytics. 
                </p>
               <p style={{ 
