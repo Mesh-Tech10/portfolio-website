@@ -393,15 +393,15 @@ const Portfolio = () => {
             {/* Bachelor's Degree */}
             <div style={{ 
               backgroundColor: '#f8fafc', 
-              padding: '2.5rem', 
+              padding: '2rem', 
               borderRadius: '12px', 
-              boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
+              /*boxShadow: '0 4px 20px rgba(0,0,0,0.08)',*/
               border: '1px solid #e2e8f0'
             }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1.5rem' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
                 <div>
                   <h3 style={{ 
-                    fontSize: '1.8rem', 
+                    fontSize: '1.5rem', 
                     fontWeight: '700', 
                     marginBottom: '0.5rem',
                     color: '#2d3748'
@@ -409,10 +409,10 @@ const Portfolio = () => {
                     Bachelor of Information and Technology Engineering
                   </h3>
                   <p style={{ 
-                    fontSize: '1.2rem', 
+                    fontSize: '1.1rem', 
                     fontWeight: '600', 
                     color: '#10b981',
-                    marginBottom: '0.5rem'
+                    marginBottom: '1rem'
                   }}>
                     Gujarat Technology University, Ahmedabad
                   </p>
