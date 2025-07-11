@@ -15,7 +15,7 @@ const Portfolio = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
 
-  const roles = ['AI/ML Engineer', 'QA Automation Expert', 'Data Scientist', 'Full Stack Developer'];
+  const roles = ['AI/ML Engineer', 'QA Automation Expert', 'Data Scientist', 'Cybersecurity Analyst'];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -78,7 +78,7 @@ const Portfolio = () => {
       }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div style={{ fontSize: '1.5rem', fontWeight: '700', color: '#2d3748' }}>
-            Meshwa Patel
+            MP
           </div>
           <div style={{ display: 'flex', gap: '2.5rem' }}>
             {['Home', 'About', 'Education', 'Experience', 'Skills', 'Projects', 'Contact'].map((item) => (
@@ -184,6 +184,7 @@ const Portfolio = () => {
                   fontSize: '1rem',
                   cursor: 'pointer',
                   transition: 'all 0.3s ease'
+
                 }}
                 suppressHydrationWarning={true}
               >
@@ -211,7 +212,12 @@ const Portfolio = () => {
               fontWeight: 'bold',
               boxShadow: '0 20px 60px rgba(102, 126, 234, 0.3)'
             }}>
-              MP
+              {[
+                {
+                  image : "C:\Users\meshw\Desktop\My-Projects\portfolio-website\Meshwa_Patel_Photo.jpg"
+                }
+              ]}
+
             </div>
           </div>
         </div>
