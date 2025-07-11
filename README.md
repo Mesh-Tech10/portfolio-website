@@ -253,10 +253,9 @@ npm run deploy
 ```javascript
 // src/utils/seo.js
 export const defaultSEO = {
-  title: "Your Name - AI/ML Engineer & QA Expert",
+  title: "Meshwa Patel - AI/ML Engineer & QA Expert",
   description: "Passionate AI/ML Engineer and QA Automation Expert specializing in building intelligent systems and robust testing frameworks.",
   keywords: "AI, Machine Learning, QA Testing, Python, Data Science, Automation",
-  author: "Your Name",
-  url: "https://yourportfolio.com",
-  image: "https://yourportfolio.com/images/
+  author: "Meshwa patel",
+  url: "https://portfolio-website-xi-gules.vercel.app/"
 ```
