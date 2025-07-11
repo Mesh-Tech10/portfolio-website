@@ -404,7 +404,7 @@ const Portfolio = () => {
                     marginBottom: '0.5rem',
                     color: '#2d3748'
                   }}>
-                    Bachelor of Engineering in Information and Technology Engineering
+                    Bachelor of Information and Technology Engineering
                   </h3>
                   <p style={{ 
                     fontSize: '1.2rem', 
@@ -645,7 +645,7 @@ const Portfolio = () => {
       </section>
 
       {/* Internship Section */}
-      <section id="experience" style={{ padding: '6rem 2rem', backgroundColor: '#f7fafc' }}>
+      <section id="internship" style={{ padding: '6rem 2rem', backgroundColor: 'white' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
             <h2 style={{ 
@@ -654,7 +654,7 @@ const Portfolio = () => {
               margin: '0 0 1rem 0',
               color: '#2d3748'
             }}>
-              Internship
+              Intership
             </h2>
             <p style={{ 
               fontSize: '1.2rem', 
@@ -662,11 +662,10 @@ const Portfolio = () => {
               maxWidth: '600px',
               margin: '0 auto'
             }}>
-              Completed hands-on internship experience applying technical skills in real-world scenarios, 
-              contributing to project development and IT support while learning from industry professionals.
+              Completed hands-on internship experience applying technical skills in real-world scenarios.
             </p>
-          </div>
-          
+          </div>     
+                
           <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem' }}>
             {/* First Internship */}
             <div style={{ 
