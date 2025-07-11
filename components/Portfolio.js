@@ -929,7 +929,7 @@ const Portfolio = () => {
                },
                {
                  name: 'Software Testing and Automation, University of Minnesota ',
-                 issuer: 'Coursera)',
+                 issuer: 'Coursera',
                  date: '2023',
                  color: '#0078d4',
                  description: 'Learned manual and automated testing strategies, including test planning, debugging, and using tools like Selenium to improve software quality.'
@@ -959,7 +959,7 @@ const Portfolio = () => {
                <div 
                  key={index}
                  style={{
-                   backgroundColor: 'white',
+                   backgroundColor: '#f7fafc',
                    border: '1px solid #e2e8f0',
                    borderRadius: '12px',
                     padding: '2rem',
@@ -1139,6 +1139,12 @@ const Portfolio = () => {
                  </div>
                  
                  <div style={{ display: 'flex', gap: '1rem' }}>
+                   <a 
+                      href="https://github.com/Mesh-Tech10/portfolio-website" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      style={{ flex: 1, textDecoration: 'none' }}
+                  >
                    <button 
                      type="button"
                      style={{ 
@@ -1156,6 +1162,13 @@ const Portfolio = () => {
                    >
                      View Code
                    </button>
+                  </a>
+                  <a 
+                      href="https://portfolio-website-sable-nu-52.vercel.app/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      style={{ flex: 1, textDecoration: 'none' }}
+                  >
                    <button 
                      type="button"
                      style={{ 
@@ -1173,6 +1186,7 @@ const Portfolio = () => {
                    >
                      Live Demo
                    </button>
+                   </a>
                  </div>
                </div>
              </div>
