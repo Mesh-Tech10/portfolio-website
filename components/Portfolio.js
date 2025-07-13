@@ -194,7 +194,7 @@ const Portfolio = () => {
                 }}
                 onClick={() => {
                   const link = document.createElement('a');
-                  link.href = "/public/Resume.pdf"; 
+                  link.href = "/Resume.pdf"; 
                   link.download = 'Meshwa_Resume.pdf'; 
                   document.body.appendChild(link);
                   link.click();
