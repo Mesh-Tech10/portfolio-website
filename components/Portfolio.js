@@ -916,7 +916,8 @@ const Portfolio = () => {
              fontWeight: '700', 
              textAlign: 'center',
              marginBottom: '3rem',
-             color: 'white'
+             color: '#2d3748',
+             backgroundColor: 'white'
            }}>
              Certifications
            </h3>
