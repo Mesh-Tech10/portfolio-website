@@ -907,17 +907,19 @@ const Portfolio = () => {
                </div>
              </div>
            ))}
+          </div>
          </div>
+        </section>
 
          {/* Certifications Section */}
+        <section id="certification" style={{ padding: '6rem 2rem', backgroundColor: 'white' }}>
          <div style={{ marginTop: '5rem' }}>
            <h3 style={{ 
              fontSize: '2.5rem', 
              fontWeight: '700', 
              textAlign: 'center',
              marginBottom: '3rem',
-             color: '#2d3748',
-             backgroundColor: 'white'
+             color: '#2d3748'
            }}>
              Certifications
            </h3>
@@ -1034,8 +1036,8 @@ const Portfolio = () => {
              ))}
            </div>
          </div>
-       </div>
-     </section>
+       </section>
+     
 
      {/* Projects Section */}
      <section id="projects" style={{ padding: '6rem 2rem', backgroundColor: '#f7fafc' }}>
