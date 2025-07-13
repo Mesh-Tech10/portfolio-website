@@ -194,7 +194,7 @@ const Portfolio = () => {
                 }}
                 onClick={() => {
                   const link = document.createElement('a');
-                  link.href = 'C:\Users\meshw\Desktop\My-Projects\portfolio-website\public\Resume.pdf'; 
+                  link.href = "C:\Users\meshw\Desktop\My-Projects\portfolio-website\public\Resume.pdf"; 
                   link.download = 'Meshwa_Resume.pdf'; 
                   document.body.appendChild(link);
                   link.click();
@@ -775,7 +775,7 @@ const Portfolio = () => {
                     color: '#8b5cf6',
                     marginBottom: '1rem'
                   }}>
-                    Web Developer Intern
+                    Techno Guide Indo Soft.
                   </p>
                   <p style={{ 
                     color: '#4a5568', 
