@@ -1231,7 +1231,7 @@ const Portfolio = () => {
      </section>
 
      {/* Contact Section */}
-     <section id="contact" style={{ padding: '6rem 2rem', backgroundColor: '#f8fafc' }}>
+     <section id="contact" style={{ padding: '6rem 2rem', backgroundColor: 'white' }}>
        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
            <h2 style={{ 
@@ -1285,7 +1285,7 @@ const Portfolio = () => {
                    { label: 'LinkedIn', value: 'github.com/Mesh-Tech10' }
                  ].map((contact, index) => (
                    <div key={index} style={{ 
-                     backgroundColor: 'white',
+                     backgroundColor: '#f8fafc',
                      padding: '1rem',
                      borderRadius: '8px',
                      border: '1px solid #e2e8f0',
@@ -1315,7 +1315,7 @@ const Portfolio = () => {
            
            {/* Contact Form */}
            <div style={{ 
-             backgroundColor: 'white', 
+             backgroundColor: '#f8fafc', 
              padding: '3rem', 
              borderRadius: '12px',
              boxShadow: '0 10px 40px rgba(0,0,0,0.08)',
@@ -1350,7 +1350,7 @@ const Portfolio = () => {
                        fontSize: '1rem',
                        outline: 'none',
                        transition: 'all 0.3s ease',
-                       backgroundColor: '#f8fafc'
+                       backgroundColor: 'white'
                      }}
                      placeholder="first name"
                      suppressHydrationWarning={true}
@@ -1381,7 +1381,7 @@ const Portfolio = () => {
                        fontSize: '1rem',
                        outline: 'none',
                        transition: 'all 0.3s ease',
-                       backgroundColor: '#f8fafc'
+                       backgroundColor: 'white'
                      }}
                      placeholder="youremail@example.com"
                      suppressHydrationWarning={true}
@@ -1413,7 +1413,7 @@ const Portfolio = () => {
                      fontSize: '1rem',
                      outline: 'none',
                      transition: 'all 0.3s ease',
-                     backgroundColor: '#f8fafc'
+                     backgroundColor: 'white'
                    }}
                    placeholder="Let's work together"
                    suppressHydrationWarning={true}
@@ -1446,7 +1446,7 @@ const Portfolio = () => {
                      outline: 'none',
                      resize: 'vertical',
                      transition: 'all 0.3s ease',
-                     backgroundColor: '#f8fafc',
+                     backgroundColor: 'white',
                      fontFamily: 'inherit'
                    }}
                    placeholder="Tell me about your project..."
