@@ -168,6 +168,12 @@ const Portfolio = () => {
                   cursor: 'pointer',
                   transition: 'all 0.3s ease'
                 }}
+                onClick={() => {
+                const projectsSection = document.getElementById('projects');
+                if (projectsSection) {
+                  projectsSection.scrollIntoView({ behavior: 'smooth' });
+                }  
+              }}
                 suppressHydrationWarning={true}
               >
                 View Projects
@@ -186,6 +192,14 @@ const Portfolio = () => {
                   transition: 'all 0.3s ease'
 
                 }}
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = '"C:\Users\meshw\Desktop\My-Projects\portfolio-website\public\Resume.pdf"'; 
+                  link.download = 'Meshwa_Resume.pdf'; 
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }}
                 suppressHydrationWarning={true}
               >
                 Download CV
@@ -195,24 +209,35 @@ const Portfolio = () => {
           
           {/* Right Content */}
           <div style={{ 
-            display: 'flex', 
-            justifyContent: 'center',
-            alignItems: 'center'
-          }}>
+              display: 'flex', 
+              justifyContent: 'center',
+              alignItems: 'center'
+            }}>
             <div style={{ 
               width: '400px', 
               height: '400px', 
               borderRadius: '20px', 
-              background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', 
-              display: 'flex', 
-              alignItems: 'center', 
-              justifyContent: 'center',
-              fontSize: '6rem',
-              color: 'white',
-              fontWeight: 'bold',
-              boxShadow: '0 20px 60px rgba(102, 126, 234, 0.3)'
+              overflow: 'hidden',
+              boxShadow: '0 20px 60px rgba(102, 126, 234, 0.3)',
+              position: 'relative'
             }}>
-              MP
+              <img 
+                src="/path/to/your/professional-photo.jpg" 
+                alt="Professional headshot"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  objectPosition: 'center',
+                  transition: 'transform 0.3s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.target.style.transform = 'scale(1.05)';
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.transform = 'scale(1)';
+                }}
+              />
             </div>
           </div>
         </div>
@@ -608,14 +633,14 @@ const Portfolio = () => {
                   }}>
                     Customer Service & Support Roles
                   </h3>
-                  {/*<p style={{ 
+                  <p style={{ 
                     fontSize: '1.2rem', 
                     fontWeight: '600', 
                     color: '#10b981',
                     marginBottom: '0.5rem'
                   }}>
-                    Companies
-                  </p>*/}
+                    Different Companies
+                  </p>
                   <p style={{ 
                     color: '#4a5568', 
                     fontSize: '0.95rem'
@@ -670,16 +695,16 @@ const Portfolio = () => {
             </p>
           </div>     
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '2rem' }}>
             {/* First Internship */}
             <div style={{ 
               backgroundColor: '#f7fafc', 
-              padding: '2.5rem', 
+              padding: '2rem', 
               borderRadius: '12px', 
               boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
               border: '1px solid #e2e8f0'
             }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1.5rem' }}>
+              <div style={{ marginBottom: '1rem' }}>
                 <div>
                   <h3 style={{ 
                     fontSize: '1.8rem', 
@@ -693,7 +718,7 @@ const Portfolio = () => {
                     fontSize: '1.2rem', 
                     fontWeight: '600', 
                     color: '#8b5cf6',
-                    marginBottom: '0.5rem'
+                    marginBottom: '1rem'
                   }}>
                     Web Developer Intern
                   </p>
@@ -707,9 +732,9 @@ const Portfolio = () => {
                 <span style={{ 
                   backgroundColor: '#8b5cf6', 
                   color: 'white', 
-                  padding: '0.5rem 1rem', 
+                  padding: '0.3rem 0.8rem', 
                   borderRadius: '20px', 
-                  fontSize: '0.9rem', 
+                  fontSize: '0.8rem', 
                   fontWeight: '600'
                 }}>
                   2018 - 2019
@@ -736,10 +761,10 @@ const Portfolio = () => {
               boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
               border: '1px solid #e2e8f0'
             }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1.5rem' }}>
+              <div style={{ marginBottom: '1rem' }}>
                 <div>
                   <h3 style={{ 
-                    fontSize: '1.8rem', 
+                    fontSize: '1.5rem', 
                     fontWeight: '700', 
                     marginBottom: '0.5rem',
                     color: '#2d3748'
@@ -747,10 +772,10 @@ const Portfolio = () => {
                     Junior Software Developer Intern
                   </h3>
                   <p style={{ 
-                    fontSize: '1.2rem', 
+                    fontSize: '1.1rem', 
                     fontWeight: '600', 
                     color: '#f59e0b',
-                    marginBottom: '0.5rem'
+                    marginBottom: '1rem'
                   }}>
                    Tech Elecon, Technological Simplified
                   </p>
@@ -764,9 +789,9 @@ const Portfolio = () => {
                 <span style={{ 
                   backgroundColor: '#f59e0b', 
                   color: 'white', 
-                  padding: '0.5rem 1rem', 
+                  padding: '0.3rem 0.8rem', 
                   borderRadius: '20px', 
-                  fontSize: '0.9rem', 
+                  fontSize: '0.8rem', 
                   fontWeight: '600'
                 }}>
                   2017 - 2018
@@ -822,20 +847,19 @@ const Portfolio = () => {
             {[
               { name: 'Python', level: 'Expert', color: '#3776ab' },
               { name: 'JavaScript', level: 'Advanced', color: '#f7df1e' },
-              { name: 'TensorFlow', level: 'Expert', color: '#ff6f00' },
+              { name: 'TensorFlow', level: 'Advanced Beginner', color: '#ff6f00' },
               { name: 'React', level: 'Advanced', color: '#61dafb' },
-              { name: 'Node.js', level: 'Intermediate', color: '#339933' },
-              { name: 'Docker', level: 'Advanced', color: '#2496ed' },
-              { name: 'AWS', level: 'Intermediate', color: '#ff9900' },
-              { name: 'MongoDB', level: 'Intermediate', color: '#47a248' },
-              { name: 'PostgreSQL', level: 'Advanced', color: '#336791' },
-              { name: 'Selenium', level: 'Expert', color: '#43b02a' },
+              { name: 'Node.js', level: 'Proficient', color: '#339933' },
+              { name: 'Docker', level: 'Proficient', color: '#2496ed' },
+              { name: 'AWS', level: 'Beginner', color: '#ff9900' },
+              { name: 'PostgreSQL', level: 'Expert', color: '#336791' },
+              { name: 'Selenium', level: 'Intermidate', color: '#43b02a' },
               { name: 'Keras', level: 'Advanced', color: '#d00000' },
-              { name: 'Scikit-learn', level: 'Expert', color: '#f7931e' },
-              { name: 'Git', level: 'Expert', color: '#f05032' },
-              { name: 'Jenkins', level: 'Intermediate', color: '#d33833' },
+              { name: 'Scikit-learn', level: 'Beginner', color: '#f7931e' },
+              { name: 'Git', level: 'Proficient', color: '#f05032' },
+              { name: 'Jenkins', level: 'Beginner', color: '#d33833' },
               { name: 'Pandas', level: 'Expert', color: '#150458' },
-              { name: 'NumPy', level: 'Advanced', color: '#013243' }
+              { name: 'NumPy', level: 'Expert', color: '#013243' }
             ].map((skill, index) => (
               <div 
                 key={index}
@@ -892,13 +916,27 @@ const Portfolio = () => {
              fontWeight: '700', 
              textAlign: 'center',
              marginBottom: '3rem',
-             color: '#2d3748'
+             color: 'white'
            }}>
              Certifications
            </h3>
            
            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '2rem' }}>
              {[
+                {
+                 name: 'Google Data Analytics Professional Certificate',
+                 issuer: 'Coursera',
+                 date: '2023',
+                 color: '#ff6f00',
+                 description: 'Gained practical experience with data analysis tools like SQL, Excel, and Tableau while learning how to clean, organize, and present data-driven insights.'
+               },
+               {
+                 name: 'Software Testing and Automation, University of Minnesota ',
+                 issuer: 'Coursera',
+                 date: '2023',
+                 color: '#0078d4',
+                 description: 'Learned manual and automated testing strategies, including test planning, debugging, and using tools like Selenium to improve software quality.'
+               },
                {
                  name: 'AWS Cloud Practitioner Essentials - AWS',
                  issuer: 'Amazon Web Services',
@@ -919,20 +957,6 @@ const Portfolio = () => {
                  date: '2024',
                  color: '#326ce5',
                  description: 'Covered the fundamentals of AI and generative AI, including ethical use, tools like Microsoft Copilot, and trained how to apply AI in real-world tasks.'
-               },
-               {
-                 name: 'Google Data Analytics Professional Certificate',
-                 issuer: 'Coursera',
-                 date: '2023',
-                 color: '#ff6f00',
-                 description: 'Gained practical experience with data analysis tools like SQL, Excel, and Tableau while learning how to clean, organize, and present data-driven insights.'
-               },
-               {
-                 name: 'Software Testing and Automation, University of Minnesota ',
-                 issuer: 'Coursera',
-                 date: '2023',
-                 color: '#0078d4',
-                 description: 'Learned manual and automated testing strategies, including test planning, debugging, and using tools like Selenium to improve software quality.'
                },
                {
                  name: 'Networking Fundamentals',
@@ -1041,28 +1065,36 @@ const Portfolio = () => {
                description: "Machine learning system to detect fraudulent job postings with 95% accuracy using advanced NLP techniques.",
                tech: ["Python", "TensorFlow", "NLP", "Flask"],
                category: "AI/ML",
-               image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+               image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+               githubUrl: "https://github.com/Mesh-Tech10/fake-job-verification",
+               liveUrl: "https://fake-job-verification-production.up.railway.app/"
              },
              {
                title: "Banking QA Framework",
                description: "Comprehensive automated testing framework for financial applications with complete CI/CD integration.",
                tech: ["Python", "Selenium", "Pytest", "Docker"],
-               category: "QA Testing",
-               image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+               category: "Testing",
+               image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+               githubUrl: "https://github.com/Mesh-Tech10/banking-qa-framework",
+               liveUrl: "https://github.com/Mesh-Tech10/banking-qa-framework"
              },
              {
                title: "Solar Prediction Model",
                description: "Advanced ML model for predicting solar radiation with 91% accuracy using meteorological data.",
                tech: ["Python", "TensorFlow", "Keras", "Pandas"],
-               category: "AI/ML",
-               image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+               category: "ML",
+               image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+               githubUrl: "https://github.com/Mesh-Tech10/solar-radiation-prediction",
+               liveUrl: "https://solar-vercel-deploy.vercel.app/"
              },
              {
                title: "Twitter sentiment analysis",
                description: "Real-time sentiment analysis system that processes Twitter data to understand public opinion, brand perception, and social trends through advanced NLP and machine learning.",
                tech: ["JavaScript", "Cypress", "Jest", "Node.js"],
-               category: "QA Testing",
-               image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+               category: "NLP/ML",
+               image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+               githubUrl: "https://github.com/Mesh-Tech10/twitter-sentiment-analysis",
+               liveUrl: "https://mesh-tech10.github.io/twitter-sentiment-analysis"
              }
            ].map((project, index) => (
              <div 
@@ -1140,7 +1172,7 @@ const Portfolio = () => {
                  
                  <div style={{ display: 'flex', gap: '1rem' }}>
                    <a 
-                      href="https://github.com/Mesh-Tech10/portfolio-website" 
+                      href={project.githubUrl} 
                       target="_blank" 
                       rel="noopener noreferrer"
                       style={{ flex: 1, textDecoration: 'none' }}
@@ -1148,7 +1180,7 @@ const Portfolio = () => {
                    <button 
                      type="button"
                      style={{ 
-                       flex: 1, 
+                       width: '100%',
                        backgroundColor: 'transparent', 
                        color: '#667eea', 
                        border: '2px solid #667eea', 
@@ -1164,7 +1196,7 @@ const Portfolio = () => {
                    </button>
                   </a>
                   <a 
-                      href="https://portfolio-website-sable-nu-52.vercel.app/" 
+                      href={project.liveUrl} 
                       target="_blank" 
                       rel="noopener noreferrer"
                       style={{ flex: 1, textDecoration: 'none' }}
@@ -1172,7 +1204,7 @@ const Portfolio = () => {
                    <button 
                      type="button"
                      style={{ 
-                       flex: 1, 
+                       width: '100%',
                        backgroundColor: '#667eea', 
                        color: 'white', 
                        border: 'none', 
@@ -1247,6 +1279,7 @@ const Portfolio = () => {
                    { label: 'Phone', value: '+1 (705) 920-1031' },
                    { label: 'Location', value: 'Mississauga, ON, CA' },
                    { label: 'LinkedIn', value: 'linkedin.com/in/meshwaa' }
+                   { label: 'LinkedIn', value: 'github.com/Mesh-Tech10' }
                  ].map((contact, index) => (
                    <div key={index} style={{ 
                      backgroundColor: 'white',
@@ -1274,47 +1307,8 @@ const Portfolio = () => {
                  ))}
                </div>
              </div>
-
-             {/* Social Links */}
-             <div>
-               <h4 style={{ 
-                 fontSize: '1.2rem', 
-                 fontWeight: '600', 
-                 marginBottom: '1rem',
-                 color: '#2d3748'
-               }}>
-                 Follow Me
-               </h4>
-               <div style={{ display: 'flex', gap: '1rem' }}>
-                 {[
-                   { name: 'Instagram', icon: '📷', bg: '#E4405F' },
-                   { name: 'Facebook', icon: '📘', bg: '#1877F2' },
-                   { name: 'LinkedIn', icon: '💼', bg: '#0A66C2' },
-                   { name: 'GitHub', icon: '🐙', bg: '#181717' }
-                 ].map((social, index) => (
-                   <div 
-                     key={index}
-                     style={{
-                       width: '45px',
-                       height: '45px',
-                       borderRadius: '50%',
-                       backgroundColor: social.bg,
-                       display: 'flex',
-                       alignItems: 'center',
-                       justifyContent: 'center',
-                       fontSize: '1.2rem',
-                       cursor: 'pointer',
-                       boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-                       transition: 'all 0.3s ease'
-                     }}
-                     title={social.name}
-                   >
-                     {social.icon}
-                   </div>
-                 ))}
-               </div>
-             </div>
            </div>
+
            
            {/* Contact Form */}
            <div style={{ 
