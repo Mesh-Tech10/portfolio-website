@@ -194,7 +194,7 @@ const Portfolio = () => {
                 }}
                 onClick={() => {
                   const link = document.createElement('a');
-                  link.href = '"C:\Users\meshw\Desktop\My-Projects\portfolio-website\public\Resume.pdf"'; 
+                  link.href = 'C:\Users\meshw\Desktop\My-Projects\portfolio-website\public\Resume.pdf'; 
                   link.download = 'Meshwa_Resume.pdf'; 
                   document.body.appendChild(link);
                   link.click();
@@ -222,7 +222,7 @@ const Portfolio = () => {
               position: 'relative'
             }}>
               <img 
-                src="/path/to/your/professional-photo.jpg" 
+                src="/images/Meshwa_Patel_Photo.jpg" 
                 alt="Professional headshot"
                 style={{
                   width: '100%',
@@ -667,6 +667,61 @@ const Portfolio = () => {
               }}>
                 <li>Roles included Store Assistant, Collection Agent, and Customer Service Specialist at BGO, Tim Hortons, Real Canadian Superstore, and Subway.</li>
                 <li>Built strong communication, conflict resolution, and customer management skills in fast-paced environments.</li>
+                </ul>
+            </div>
+
+            {/* forth Position */}
+            <div style={{ 
+              backgroundColor: 'white', 
+              padding: '2.5rem', 
+              borderRadius: '12px', 
+              boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
+              border: '1px solid #e2e8f0'
+            }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1.5rem' }}>
+                <div>
+                  <h3 style={{ 
+                    fontSize: '1.8rem', 
+                    fontWeight: '700', 
+                    marginBottom: '0.5rem',
+                    color: '#2d3748'
+                  }}>
+                    Instructional Support Assistant
+                  </h3>
+                  <p style={{ 
+                    fontSize: '1.2rem', 
+                    fontWeight: '600', 
+                    color: '#10b981',
+                    marginBottom: '0.5rem'
+                  }}>
+                    Laurentian University
+                  </p>
+                  <p style={{ 
+                    color: '#4a5568', 
+                    fontSize: '0.95rem'
+                  }}>
+                    Greater Sudbury, Ontario, Canada
+                  </p>
+                </div>
+                <span style={{ 
+                  backgroundColor: '#10b981', 
+                  color: 'white', 
+                  padding: '0.5rem 1rem', 
+                  borderRadius: '20px', 
+                  fontSize: '0.9rem', 
+                  fontWeight: '600'
+                }}>
+                  2019 - 2021
+                </span>
+              </div>
+              <ul style={{ 
+                color: '#4a5568', 
+                lineHeight: '1.7',
+                paddingLeft: '1.5rem',
+                margin: 0
+              }}>
+                <li>Supported students and professors with coursework, grading, and IT-related classroom needs.</li>
+                <li>Conducted research and helped publish academic papers in computer science.</li>
                 </ul>
             </div>
           </div>
