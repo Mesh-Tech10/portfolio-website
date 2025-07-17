@@ -1359,14 +1359,30 @@ const Portfolio = () => {
                        color: '#2d3748',
                        fontWeight: '600'
                      }}>
-                       {contact.value}
+                       {contact.liveUrl ? (
+                         <a 
+                           href={contact.liveUrl} 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           style={{
+                             color: '#3182ce',
+                             textDecoration: 'none',
+                             transition: 'color 0.2s ease',
+                           }}
+                           onMouseEnter={(e) => e.target.style.color = '#2c5282'}
+                           onMouseLeave={(e) => e.target.style.color = '#3182ce'}
+                         >
+                           {contact.value}
+                         </a>
+                       ) : (
+                         contact.value
+                       )}
                      </div>
                    </div>
                  ))}
                </div>
              </div>
            </div>
-
            
            {/* Contact Form */}
            <div style={{ 
