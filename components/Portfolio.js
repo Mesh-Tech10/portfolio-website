@@ -1336,8 +1336,8 @@ const Portfolio = () => {
                    { label: 'Email', value: 'meshwapatel10@gmail.com' },
                    { label: 'Phone', value: '+1 (705) 920-1031' },
                    { label: 'Location', value: 'Mississauga, ON, CA' },
-                   { label: 'LinkedIn', value: 'linkedin.com/in/meshwaa' },
-                   { label: 'LinkedIn', value: 'github.com/Mesh-Tech10' }
+                   { label: 'LinkedIn', value: 'linkedin.com/in/meshwaa', liveUrl: "https://www.linkedin.com/in/meshwaa/"},
+                   { label: 'Github', value: 'github.com/Mesh-Tech10', liveUrl: "https://github.com/Mesh-Tech10" }
                  ].map((contact, index) => (
                    <div key={index} style={{ 
                      backgroundColor: '#f8fafc',
