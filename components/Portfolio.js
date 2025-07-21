@@ -37,9 +37,9 @@ const Portfolio = () => {
     setSubmitStatus(null);
     
     // Replace these with your actual EmailJS credentials
-    const serviceID = 'service_eu8o7dg';      
-    const templateID = 'template_g7ca6kv';    
-    const publicKey = 'c_IwTjULID6R4j3ws';      
+    const serviceID = 'service key from notes';      
+    const templateID = 'template key from notes';    
+    const publicKey = 'public key from notes';      
     
     emailjs.send(serviceID, templateID, formData, publicKey)
       .then((response) => {
