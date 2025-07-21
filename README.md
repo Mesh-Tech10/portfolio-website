@@ -1,6 +1,6 @@
 # Professional Portfolio Website
 # Overview
-A modern, responsive portfolio website showcasing your skills, projects, and professional experience. Built with the latest web technologies and optimized for performance and SEO.
+A modern, responsive portfolio website showcasing my skills, projects, and professional experience. Built with the latest web technologies and optimized for performance and SEO.
 
 # Features
 - Responsive Design: Mobile-first approach, works on all devices
